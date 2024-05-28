@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+<title>Lista de Videojuegos</title>
+</head>
+<body>
+<h1>Lista de Videojuegos</h1>
+<a href="add.html">Agregar Videojuego</a>
+<table>
+<tr>
+<th>Título</th>
+<th>Desarrollador</th>
+<th>Plataforma</th>
+</tr>
+<tr th:each="videogame : ${videogames}">
+<td th:text="${videogame.title}">
+</td>
+<td th:text="${videogame.developer}">
+</td>
+<td th:text="${videogame.platform}">
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+[
+    {
+      "Titulo": "Cien años de soledad",
+      "Autor": "Gabriel García Márquez",
+      "Año": 1967,
+      "Publicadora": "Editorial Sudamericana",
+      "Genero": "Realismo mágico"
+    },
+    {
+      "Titulo": "1984",
+      "Autor": "George Orwell",
+      "Año": 1949,
+      "Publicadora": "Secker & Warburg",
+      "Genero": "Distopía"
+    },
+    {
+      "Titulo": "El gran Gatsby",
+      "Autor": "F. Scott Fitzgerald",
+      "Año": 1925,
+      "Publicadora": "Charles Scribner's Sons",
+      "Genero": "Ficción"
+    },
+    {
+      "Titulo": "Matar a un ruiseñor",
+      "Autor": "Harper Lee",
+      "Año": 1960,
+      "Publicadora": "J.B. Lippincott & Co.",
+      "Genero": "Ficción"
+    },
+    {
+      "Titulo": "Orgullo y prejuicio",
+      "Autor": "Jane Austen",
+      "Año": 1813,
+      "Publicadora": "T. Egerton",
+      "Genero": "Romance"
+    }
+  ]
+  
+  
+  

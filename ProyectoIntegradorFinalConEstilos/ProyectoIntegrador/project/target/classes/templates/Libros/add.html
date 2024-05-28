@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title class="Mainin">Agregar Libro</title>
+</head>
+<body>
+    <a th:href="@{/libros}" type="button" style="display: block; margin-top: 20px; color: black; background-color: rgb(250, 245, 117); padding:20px; border-radius: 10px; border-color: aliceblue; text-decoration: none; text-align: center;">Volver al inicio</a>
+    <h1>Agregar Libro</h1>
+    <form method="post" th:action="@{/libros/add}">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required><br>
+        <label for="author">Autor:</label>
+        <input type="text" id="author" name="author" required><br>
+        <label for="year">Año:</label>
+        <input type="number" id="year" name="year" required><br>
+        <label for="publisher">Publicadora:</label>
+        <input type="text" id="publisher" name="publisher"><br>
+        <label for="genre">Género:</label>
+        <input type="text" id="genre" name="genre"><br>
+        <button class="botonDeAgregar" type="submit">Agregar</button>
+    </form>
+</body>
+</html>
+<Style>
+    .botonDeAgregar{
+        display: block;
+        margin-top: 20px;
+        color: black;
+        background-color: rgb(207, 201, 192);
+        padding:20px;
+        border-radius: 10px;
+        border-color: rgb(243, 205, 159);
+    }
+    input{
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: rgb(247, 226, 134);
+    }
+    .Mainin{
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 208, 0);
+        }
+</Style>

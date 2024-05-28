@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Lista de Música</title>
+</head>
+<body>
+<h1>Lista de Música</h1>
+<a href="add.html">Agregar Música</a>
+<table>
+<tr>
+<th>Título</th>
+<th>Artista</th>
+<th>Género</th>
+</tr>
+<tr th:each="music : ${musicList}"><td th:text="${music.title}">
+</td>
+<td th:text="${music.artist}">
+</td>
+<td th:text="${music.genre}">
+</td>
+</tr>
+</table>
+</body>
+</html>
